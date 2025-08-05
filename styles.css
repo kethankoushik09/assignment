@@ -1,0 +1,326 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Home Section */
+    .home {
+      background-color: #4f85c1;
+      color: white;
+      padding-bottom: 60px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .home-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      flex-wrap: wrap;
+      min-height: 80vh;
+    }
+
+    .home-content .left {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 20px;
+    }
+
+    .home-content .left h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .home-content .left p {
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      max-width: 400px;
+    }
+
+    .input-group input {
+      padding: 10px;
+      flex: 1;
+      border: none;
+      border-radius: 4px 0 0 4px;
+      outline: none;
+    }
+
+    .input-group button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #0056b3;
+      color: white;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+
+    .input-group button:hover {
+      background-color: #004494;
+    }
+
+    .home-content .right {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .home-content .right img {
+      max-width: 100%;
+      height:auto ;
+      border-radius: 10px;
+    }
+    /* About Section */
+  .about {
+  background-color: #f8f8f8;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+    .about-heading {
+      font-size: 2.2rem;
+      color: #333;
+      margin: 0px 10px;
+      text-align: center;
+    }
+
+    .about-subheading {
+      font-size: 1.1rem;
+      color: #90a4ae;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .features-grid {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      padding-top: 20px;
+    }
+
+    .feature-item {
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .feature-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .feature-item h3 {
+      color: #90a4ae;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .feature-item p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    /* Features Section */
+    .features {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding-bottom: 80px;
+    }
+
+    .features-heading {
+      font-size: 2.2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .features-subheading {
+      font-size: 1.1rem;
+      color: #90a4ae;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    /* Invite Form */
+  .invite-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      width: 84vw;
+      margin: 20px 50px;
+    }
+
+    .invite-form input[type="email"] {
+      padding: 12px 15px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+      width: 250px;
+    }
+
+    .invite-form button {
+      background-color: #f0a53e;
+      border: none;
+      padding: 12px 25px;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .invite-form button:hover {
+      background-color: #d98b21;
+    }
+
+    /* Mobile Image */
+    .mobile-image-container img {
+      width: 180px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      border-radius: 18px;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding-bottom: 80px;
+      padding-top: 40px;
+    }
+
+    .testimonials-subheading {
+      color: #90a4ae;
+      max-width: 700px;
+      margin: 10px auto 50px;
+      font-size: 1.1rem;
+    }
+
+    .team-members {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .member {
+      max-width: 280px;
+      text-align: center;
+    }
+
+    .member img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .member h3 {
+      color: #90a4ae;
+      margin-bottom: 10px;
+    }
+
+    .member p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social-icons a img {
+      width: 22px;
+      height: 22px;
+      filter: brightness(40%) sepia(80%) saturate(500%) hue-rotate(185deg);
+      transition: filter 0.3s ease;
+    }
+
+    .social-icons a:hover img {
+      filter: brightness(100%) sepia(0%) saturate(100%) hue-rotate(0deg);
+    }
+
+    /* Contact Us Section */
+    .contact-us {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding: 40px 0 80px;
+    }
+
+    .contact-us h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .contact-form button {
+      background-color: #f0a53e;
+      border: none;
+      padding: 15px 0;
+      color: white;
+      font-weight: 600;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #d98b21;
+    }
